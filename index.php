@@ -78,6 +78,8 @@ Variable names start with $
 				<li>Class acts a container for group of related variables and functions.</li>
 				<li>Objects are instance of a Class , All Objects created from same class will have the same set of variables and functions.</li>
 				<li>Objects are created from Class using new keyword e.g $lineaCar = new Car;</li>
+				<li>Objects can use constructor to initialize its properties e.g $lineaCar = new Car("Linea","Compact");</li>
+				<li>Constructor is a special function which starts with ___construct</li>
 			 </ol>
 		</td>
         <td><a href="obj_demo.php">Class and Objects</a></td>
