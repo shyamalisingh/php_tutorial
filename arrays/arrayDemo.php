@@ -1,30 +1,40 @@
+<html>
+<head>
+<body>
+<h2>list of age </h2>
 <?php
-//numeri array
+//Indexed array
 $x=array("sameer", "ajay", "rohan", "mukul");
 
-	/*echo $x[0];
-	echo "<br>";
-	echo $x[1];
-	echo "<br>";
-	echo $x[2];
-	echo "<br>";
-	echo $x[3];*/
-	
 	for($i=0;$i<4;$i++)
 	{
 		echo $x[$i];
 		echo "<br>";
 	}
+//Associative array
 	
-$y=array("sameer"=>23,"ajay"=>34,"rohan"=>22,"mukul"=>33);
+$age=array("sameer"=>23,"ajay"=>34,"rohan"=>22,"mukul"=>33);
 
-	echo $y["sameer"];
+	/*echo $age["sameer"];
 	echo"<br>";
 	echo $y["ajay"];
 	echo"<br>";
 	echo $y["rohan"];
 	echo"<br>";
 	echo $y["mukul"];
-	echo"<br>";
+	echo"<br>";*/
+	
+echo "<ul>";	
+foreach($age as $key=>$v)
+{
+	echo "<li>";
+	echo "$key age is: $v </li>";
+	
+}
+echo "</ul>";
 	
 ?>
+</body>
+</head>
+</html>
+	
