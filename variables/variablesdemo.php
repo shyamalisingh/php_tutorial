@@ -1,0 +1,30 @@
+<?php
+$name="shammi";
+echo "<br>";
+$number=1;
+echo "<br>";
+$_name="shyamali";
+echo "<br>";
+$name1="shammi";
+echo "<br>";
+$name2="singh";
+echo "<br>";
+$num1=2;
+echo "<br>";
+$num2=5;
+echo "<br>";
+$sum=$num1+$num2;
+echo "<br>";
+echo $sum;
+echo "<br>";
+$floatNum=5.5;
+$floatNum2=5;
+$quotint=$floatNum/$floatNum2;
+echo "<br>";
+echo $quotint;
+echo "<br>";
+$x=true;
+$y=false;
+echo $x+$y;
+echo $x;
+?>

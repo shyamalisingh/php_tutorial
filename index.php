@@ -68,7 +68,7 @@ Variable names start with $
           PHP scripting server
           MySQL database
           WAMP (Combination of above 3) </td>
-        <td><a href="echo_print.php">Echo print</a></td>
+        <td><a href="variables/echo_print.php">Echo print</a></td>
 		</tr>
 		<tr>
 	   <th scope="row">7</th>
@@ -82,7 +82,21 @@ Variable names start with $
 				<li>Constructor is a special function which starts with ___construct</li>
 			 </ol>
 		</td>
-        <td><a href="obj_demo.php">Class and Objects</a></td>
+        <td><a href="oops/obj_demo.php">Class and Objects</a></td>
+		</tr>
+		<tr>
+	   <th scope="row">8</th>
+        <td> Forms </td>
+        <td> 
+			<ol>
+				<li>Forms are used to get information from user.</li>
+				<li>Forms are created in html using form tag.</li>
+				<li>Form tag will have method: GET/POST and action will be submit.php</li>
+				<li>From fields are encolsed in div form-group for proper alignment</li>
+				<li>Form fields could be textfield,select-option(dropdown),checkbox,radio</li>
+			 </ol>
+		</td>
+        <td><a href="oops/obj_demo.php">Class and Objects</a></td>
 		</tr>
     </tbody>
   </table>
