@@ -15,15 +15,6 @@ $x=array("sameer", "ajay", "rohan", "mukul");
 	
 $age=array("sameer"=>23,"ajay"=>34,"rohan"=>22,"mukul"=>33);
 
-	/*echo $age["sameer"];
-	echo"<br>";
-	echo $y["ajay"];
-	echo"<br>";
-	echo $y["rohan"];
-	echo"<br>";
-	echo $y["mukul"];
-	echo"<br>";*/
-	
 echo "<ul>";	
 foreach($age as $key=>$v)
 {

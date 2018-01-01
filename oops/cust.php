@@ -4,7 +4,7 @@
 	private $age;
 	public $address;
 	
-	public function ptint_custinfo()
+	public function print_custinfo()
 	
 	{
 		echo "<br>";
